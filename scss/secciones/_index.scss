@@ -1,0 +1,62 @@
+/* ================= INDEX ==================== */
+.inicioBody {
+    display: grid;
+    background-image: url(../img/pawel-czerwinski-2PN18U8CKi0-unsplash.jpg);
+    background-size: cover;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1.2fr 0.8fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        "primeraSeccion primeraSeccion primeraSeccion primeraSeccion"
+        "segundaSeccion segundaSeccion segundaSeccion segundaSeccion"
+        "terceraSeccion terceraSeccion terceraSeccion terceraSeccion";
+
+    .primeraSeccion {
+        grid-area: primeraSeccion;
+        text-align: center;
+        padding-top: 30px;
+
+        img {
+            height: 700px;
+            border: solid 3px $colorBase;
+            border-radius: 15px;
+        }
+    }
+    
+
+    .segundaSeccion {
+        grid-area: segundaSeccion;
+        text-align: center;
+        padding-bottom: 30px;
+        img{
+            height: 600px;
+            border: solid 3px $colorBase;
+            border-radius: 15px;
+            margin: 20px;
+        }
+        
+    }
+
+    .terceraSeccion {
+        grid-area: terceraSeccion;
+        padding-bottom: 30px;
+        text-align: center;
+        font-size: 30px;
+        font-family: $tipografiaPrincipal;
+
+        div {
+            display: inline-block;
+            background-color: #ffffff56;
+            max-width: 80%;
+            text-align: center;
+            padding: 5px 30px 30px 30px;
+            border: solid 3px $colorBase;
+            border-radius: 20px;
+        }
+
+        h1 {
+            padding-bottom: 15px;
+        }
+    }
+}

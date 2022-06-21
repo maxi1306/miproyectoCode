@@ -1,0 +1,41 @@
+/* -=-=-=-=-=-NAV-=--=-=-=-= */
+nav {
+    background-image: linear-gradient(to top, #f5abdf, white, #f5abdf);
+
+    .navbar-collapse {
+        justify-content: flex-end
+    }
+
+    .logo {
+        width: 100px;
+        margin: 10px;
+
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+
+    ul {
+        font-family: $tipografiaPrincipal;
+
+        .nav-link {
+            color: #000000;
+
+            &:hover {
+                color: #03e4fd;
+                background-image: linear-gradient(to top, #a318c565, #ffffff9c, #bf4fdb6b);
+                border-radius: 25px;
+                border: solid .5px #4f006e6b;
+            }
+        }
+
+    }
+
+
+}
+
+@media (min-width: 425px) {
+    .navbar-nav {
+        align-items: center
+    }
+}

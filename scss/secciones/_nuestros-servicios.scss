@@ -1,0 +1,107 @@
+/* ============= NUESTROS SERVICIOS ================ */
+.ns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+
+        "tituloUno tituloUno tituloUno imgUno imgUno"
+        "imgDos imgDos tituloDos tituloDos tituloDos"
+        "tituloTres tituloTres tituloTres imgTres imgTres"
+        "imgCuatro imgCuatro tituloCuatro tituloCuatro tituloCuatro"
+        "tituloCinco tituloCinco tituloCinco imgCinco imgCinco"
+        "imgSeis imgSeis tituloSeis tituloSeis tituloSeis";
+
+    background-image: url(../img/fondoCorazones.jpg);
+    justify-items: center;
+    align-items: center;
+    padding: 20px;
+
+    .fondoServ {
+        background-color: #f0f8ff57;
+        border: 2px solid $colorBase;
+        border-radius: 25px;
+        width: 700px;
+        padding-bottom: 20px;
+        font-family: $tipografiaPrincipal;
+
+        h1 {
+            display: flex;
+            justify-content: center;
+            margin-top: 15px;
+
+        }
+
+        p {
+            text-align: center;
+            padding: 20px;
+        }
+
+    }
+
+    img {
+        height: 250px;
+        border-radius: 30px;
+        border: solid 3px $colorBase;
+    }
+
+    .tituloUno {
+        grid-area: tituloUno;
+        font-size: 25px;
+        padding-bottom: 20px;
+
+
+    }
+
+    .tituloDos {
+        grid-area: tituloDos;
+        font-size: 20px;
+    }
+
+    .tituloTres {
+        grid-area: tituloTres;
+        font-size: 20px;
+    }
+
+    .tituloCuatro {
+        grid-area: tituloCuatro;
+        font-size: 20px;
+    }
+
+
+    .tituloCinco {
+        grid-area: tituloCinco;
+        font-size: 20px;
+    }
+
+    .tituloSeis {
+        grid-area: tituloSeis;
+        font-size: 20px;
+    }
+
+    .imgUno {
+        grid-area: imgUno;
+    }
+
+    .imgDos {
+        grid-area: imgDos;
+    }
+
+    .imgTres {
+        grid-area: imgTres;
+    }
+
+    .imgCuatro {
+        grid-area: imgCuatro;
+    }
+
+    .imgCinco {
+        grid-area: imgCinco;
+    }
+
+    .imgSeis {
+        grid-area: imgSeis;
+    }
+}

@@ -1,0 +1,72 @@
+/* ================= DEPI DEFINITIVA ==================== */
+.headerDepi {
+    display: flex;
+    background-image: url(../img/aesthetic-pink-rose-petal-background.jpg);
+    height: 80%;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .imgDepi {
+        padding-left: 300px;
+        margin: 10px;
+
+        img {
+            background-color: #ffffff3a;
+            border-radius: 30px;
+            border: solid 4px #ffffff70;
+        }
+    }
+
+    .depiTexto {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        font-size: 25px;
+        background-color: #ffffff1a;
+        border-radius: 50px;
+        margin: 10px;
+
+        h1 {
+            margin: 20px;
+            font-family: monospace;
+            font-size: 50px;
+        }
+
+        h2 {
+            font-family: $tipografiaPrincipal;
+            color: #ad0aad;
+        }
+
+        strong {
+            color: #5f035f;
+        }
+
+        p {
+            padding: 30px;
+            max-width: 600px;
+        }
+
+        .botDepi {
+            padding-bottom: 60px;
+
+            a {
+                font-size: 30px;
+                color: #550855;
+                background-color: #f1b7ef;
+                border: solid 3px violet;
+                padding: 15px;
+                border-radius: 20px;
+                text-decoration: none;
+                font-family: $tipografiaPrincipal;
+
+                &:hover {
+                    border: solid 3px $colorBase;
+                    color: $colorBase;
+                    background-color: #550855;
+                }
+            }
+        }
+    }
+}

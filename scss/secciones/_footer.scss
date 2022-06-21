@@ -1,0 +1,19 @@
+/* -=-=-=-=-FOOTER-=-=-=-=-=-=- */
+
+.footer {
+    grid-area: footer;
+    background-color: #f8cdf7;
+    text-align: center;
+    padding: 20px;
+
+    i {
+        color: #700270;
+        padding: 10px;
+        font-size: 30px;
+
+        &:hover {
+            color: $colorBase;
+        }
+
+    }
+}
