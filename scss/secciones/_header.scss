@@ -14,12 +14,14 @@ nav {
             transform: scale(1.2);
         }
     }
-
+    
     ul {
-        font-family: $tipografiaPrincipal;
+        font-family: $tipografiaPrincipal;        
 
         .nav-link {
-            color: #000000;
+            color: #53075a;
+            font-weight: bold;
+
 
             &:hover {
                 color: #03e4fd;

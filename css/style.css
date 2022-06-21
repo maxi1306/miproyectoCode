@@ -59,7 +59,8 @@ nav {
   nav ul {
     font-family: "Zen Loop", cursive; }
     nav ul .nav-link {
-      color: #000000; }
+      color: #53075a;
+      font-weight: bold; }
       nav ul .nav-link:hover {
         color: #03e4fd;
         background-image: linear-gradient(to top, #a318c565, #ffffff9c, #bf4fdb6b);
