@@ -2,6 +2,12 @@
   margin: 0;
   padding: 0; }
 
+.ns .fondoServ h1, .ns .fondoServ h2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  font-size: 40px; }
+
 /* ================= INDEX ==================== */
 .inicioBody {
   display: grid;
@@ -11,7 +17,8 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1.2fr 0.8fr 1fr;
   gap: 0px 0px;
-  grid-template-areas: "primeraSeccion primeraSeccion primeraSeccion primeraSeccion" "segundaSeccion segundaSeccion segundaSeccion segundaSeccion" "terceraSeccion terceraSeccion terceraSeccion terceraSeccion"; }
+  grid-template-areas: "primeraSeccion primeraSeccion primeraSeccion primeraSeccion" "segundaSeccion segundaSeccion segundaSeccion segundaSeccion" "terceraSeccion terceraSeccion terceraSeccion terceraSeccion";
+  padding-top: 30px; }
   .inicioBody .primeraSeccion {
     grid-area: primeraSeccion;
     text-align: center;
@@ -48,7 +55,8 @@
 
 /* -=-=-=-=-=-NAV-=--=-=-=-= */
 nav {
-  background-image: linear-gradient(to top, #f5abdf, white, #f5abdf); }
+  background-image: linear-gradient(to top, #f5abdf, white, #f5abdf);
+  box-shadow: 0px 10px 30px #ffaaff; }
   nav .navbar-collapse {
     justify-content: flex-end; }
   nav .logo {
@@ -80,9 +88,10 @@ nav {
   grid-auto-flow: row;
   grid-template-areas: "tituloUno tituloUno tituloUno imgUno imgUno" "imgDos imgDos tituloDos tituloDos tituloDos" "tituloTres tituloTres tituloTres imgTres imgTres" "imgCuatro imgCuatro tituloCuatro tituloCuatro tituloCuatro" "tituloCinco tituloCinco tituloCinco imgCinco imgCinco" "imgSeis imgSeis tituloSeis tituloSeis tituloSeis";
   background-image: url(../img/fondoCorazones.jpg);
+  background-size: cover;
   justify-items: center;
   align-items: center;
-  padding: 20px; }
+  padding: 60px 0px 60px 0px; }
   .ns .fondoServ {
     background-color: #f0f8ff57;
     border: 2px solid white;
@@ -90,20 +99,17 @@ nav {
     width: 700px;
     padding-bottom: 20px;
     font-family: "Zen Loop", cursive; }
-    .ns .fondoServ h1 {
-      display: flex;
-      justify-content: center;
-      margin-top: 15px; }
     .ns .fondoServ p {
       text-align: center;
       padding: 20px; }
   .ns img {
+    text-align: center;
     height: 250px;
     border-radius: 30px;
     border: solid 3px white; }
   .ns .tituloUno {
     grid-area: tituloUno;
-    font-size: 25px;
+    font-size: 20px;
     padding-bottom: 20px; }
   .ns .tituloDos {
     grid-area: tituloDos;
@@ -136,7 +142,8 @@ nav {
 /* -=-=-=-=-FOOTER-=-=-=-=-=-=- */
 .footer {
   grid-area: footer;
-  background-color: #f8cdf7;
+  background-image: linear-gradient(to top, #f2b5f1, #f5dff4, #f4b8f3);
+  box-shadow: 0px 0px 30px 20px #ffaaff;
   text-align: center;
   padding: 20px; }
   .footer i {
@@ -159,9 +166,8 @@ nav {
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
   grid-auto-rows: minmax(200px, auto);
   gap: 20px;
-  padding: 20px;
-  grid-auto-flow: dense;
-  padding-top: 70px; }
+  padding: 70px 20px 70px 20px;
+  grid-auto-flow: dense; }
 
 .galeria div {
   border-radius: 10px;
@@ -195,7 +201,9 @@ nav {
   height: 80%;
   width: 100%;
   align-items: center;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  padding-top: 40px;
+  padding-bottom: 40px; }
   .headerDepi .imgDepi {
     padding-left: 300px;
     margin: 10px; }
@@ -271,7 +279,7 @@ nav {
     border-radius: 30px;
     border: solid 3px #f1b7ef;
     padding: 10px;
-    margin: 20px; }
+    margin: 20px 0px 70px 0px; }
     .header section p {
       font-family: monospace;
       font-size: large; }
@@ -281,7 +289,7 @@ nav {
     align-items: center;
     flex-wrap: wrap;
     background-color: #f0f8ffb2;
-    margin: 10px;
+    margin: 46px;
     border: solid 5px #f5cbf5;
     border-radius: 20px; }
     .header .formulario h1 {

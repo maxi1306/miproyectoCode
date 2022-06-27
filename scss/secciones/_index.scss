@@ -11,6 +11,7 @@
         "primeraSeccion primeraSeccion primeraSeccion primeraSeccion"
         "segundaSeccion segundaSeccion segundaSeccion segundaSeccion"
         "terceraSeccion terceraSeccion terceraSeccion terceraSeccion";
+    padding-top: 30px;
 
     .primeraSeccion {
         grid-area: primeraSeccion;
@@ -23,19 +24,20 @@
             border-radius: 15px;
         }
     }
-    
+
 
     .segundaSeccion {
         grid-area: segundaSeccion;
         text-align: center;
         padding-bottom: 30px;
-        img{
+
+        img {
             height: 600px;
             border: solid 3px $colorBase;
             border-radius: 15px;
             margin: 20px;
         }
-        
+
     }
 
     .terceraSeccion {

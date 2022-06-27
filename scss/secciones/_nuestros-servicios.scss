@@ -15,9 +15,10 @@
         "imgSeis imgSeis tituloSeis tituloSeis tituloSeis";
 
     background-image: url(../img/fondoCorazones.jpg);
+    background-size: cover;
     justify-items: center;
     align-items: center;
-    padding: 20px;
+    padding: 60px 0px 60px 0px;
 
     .fondoServ {
         background-color: #f0f8ff57;
@@ -28,9 +29,12 @@
         font-family: $tipografiaPrincipal;
 
         h1 {
-            display: flex;
-            justify-content: center;
-            margin-top: 15px;
+            @extend %estilosServi;
+
+        }
+
+        h2 {
+            @extend %estilosServi;
 
         }
 
@@ -42,6 +46,7 @@
     }
 
     img {
+        text-align: center;
         height: 250px;
         border-radius: 30px;
         border: solid 3px $colorBase;
@@ -49,7 +54,7 @@
 
     .tituloUno {
         grid-area: tituloUno;
-        font-size: 25px;
+        font-size: 20px;
         padding-bottom: 20px;
 
 
@@ -58,6 +63,8 @@
     .tituloDos {
         grid-area: tituloDos;
         font-size: 20px;
+        
+    
     }
 
     .tituloTres {
