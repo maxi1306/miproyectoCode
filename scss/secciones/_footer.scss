@@ -12,9 +12,20 @@
         padding: 10px;
         font-size: 30px;
 
-        &:hover {
-            color: $colorBase;
-        }
+        
 
+    }
+
+    .fa-instagram{
+        @include colorIcono (#f07342)
+    }
+
+    .fa-whatsapp{
+        @include colorIcono (green)
+
+    }
+
+    .fa-facebook{
+        @include colorIcono (blue)
     }
 }

@@ -1,0 +1,7 @@
+@mixin colorIcono ($colorIconos) {
+    &:hover {
+        color: $colorIconos;
+        transform: scale(1.2);
+
+    }
+}
