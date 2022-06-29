@@ -325,6 +325,7 @@ nav {
 .headerDepi {
   display: flex;
   background-image: url(../img/aesthetic-pink-rose-petal-background.jpg);
+  background-size: cover;
   height: 80%;
   width: 100%;
   align-items: center;
@@ -377,11 +378,63 @@ nav {
 
 /* ================= Responsive =============  */
 /* Laptop L */
+@media (max-width: 1440px) {
+  .headerDepi {
+    justify-content: center; }
+    .headerDepi .imgDepi {
+      padding: 0px; }
+    .headerDepi img {
+      height: 100vh; } }
+
 /* Laptop */
+@media (max-width: 1024px) {
+  .headerDepi {
+    justify-content: center; }
+    .headerDepi .imgDepi {
+      padding: 0px; }
+    .headerDepi img {
+      height: 70vh; } }
+
 /* Tablets */
+@media (max-width: 768px) {
+  .headerDepi {
+    justify-content: center; }
+    .headerDepi .imgDepi {
+      padding: 0px; }
+    .headerDepi img {
+      height: 90vh; } }
+
 /* MOBILE L */
+@media (max-width: 425px) {
+  .headerDepi {
+    justify-content: center; }
+    .headerDepi .imgDepi {
+      padding: 0px; }
+    .headerDepi img {
+      height: 400px; } }
+
 /* MOBILE */
+@media (max-width: 375px) {
+  .headerDepi {
+    justify-content: center; }
+    .headerDepi .imgDepi {
+      padding: 0px; }
+    .headerDepi img {
+      height: 350px; } }
+
 /* MOBILE S*/
+@media (max-width: 320px) {
+  .headerDepi {
+    justify-content: center; }
+    .headerDepi .imgDepi {
+      padding: 0px; }
+    .headerDepi img {
+      height: 350px; }
+    .headerDepi .depiTexto p {
+      font-size: 20px; }
+    .headerDepi .depiTexto .botDepi a {
+      font-size: 20px; } }
+
 /* ================= CONTACTO ==================== */
 .contacto {
   display: grid;
