@@ -1,0 +1,45 @@
+- Cambio 1:
+
+Cree carpeta pages y agregue a los 4 html, menos index a la carpeta
+
+- Cambio 2:
+
+Cambie etiqueta a title:
+
+index: Rocio estetica - Inicio
+Nuestros Servicios: Rocio estetica - NUESTROS SERVICIOS
+Galeria: Rocio estetica - GALERIA
+Depi Definitiva: Rocio estetica - DEPIFINITIVA
+Contacto: Rocio estetica - CONTACTO
+
+- Cambio 3:
+
+Agregue meta Keywords:
+
+Index: "estetica, salon, belleza, local"
+Nuestros Servicios: "Contamos con varios Servicios como, Depilacion sistema español, Manicuria, Lifting, Perfilado de Cejas, Laminado de Cejas, Tratamientos Capilares, Limpieza Facial y Depi Definitiva"
+Galeria: "fotos, servicios"
+Depi Definitiva: "depilacion, definitiva, laser, sveltia"
+Contacto: "contacto, reserva, consulta, interes"
+
+- Cambio 4:
+
+Agregue meta Description:
+
+Index: "Salon de Belleza ubicado en Zona Sur, Claypole. Veni y date un Mimo! en Rocio Estetica."
+Nuestro Servicios: "Contamos con varios Servicios como, Depilacion sistema español, Manicuria, Lifting, Perfilado de Cejas, Laminado de Cejas, Tratamientos Capilares, Limpieza Facial y Depi Definitiva"
+Galeria: "Podras ver muchas fotos de todos nuestros servicios en nuestra galeria."
+Depi Definitiva: "El equipo que utilizamos es Dermolight Laser(Sveltia), el cual utiliza Láser de Diodo y tiene un sistema de enfriamiento que brinda una experiencia indolora y confortable en cualquier tipo de piel."
+Contacto: "Podes ponerte en Contacto con nosotras, para cualquier consulta o reserva de cualquiera de nuestros servicios, animate y date un mimo en Rocio Estetica."
+
+- Cambio 5: 
+
+cree un sitemap de mi proyecto, descargue el sitemap.xml y lo introduje al mismo.
+
+- Cambio 6: 
+
+cree el archivo de texto explicando los cambios.
+
+
+
+

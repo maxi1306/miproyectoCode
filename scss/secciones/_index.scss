@@ -61,4 +61,175 @@
             padding-bottom: 15px;
         }
     }
+
+
+}
+
+/* ================= Responsive =============  */
+
+@media (max-width:1024px) {
+
+    .inicioBody {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas:
+            "primeraSeccion primeraSeccion primeraSeccion "
+            "segundaSeccion segundaSeccion segundaSeccion"
+            "terceraSeccion terceraSeccion terceraSeccion ";
+
+            .iText {
+                font-size: 25px;
+            }
+
+            
+    }
+
+    .inicioBody {
+        img {
+            width: 70%;
+        }
+
+        .primeraSeccion {
+            img {
+                width: 90%;
+                height: 500px;
+            }
+        }
+    }
+
+
+
+}
+
+@media (max-width:768px) {
+
+    .inicioBody {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas:
+            "primeraSeccion primeraSeccion primeraSeccion "
+            "segundaSeccion segundaSeccion segundaSeccion"
+            "terceraSeccion terceraSeccion terceraSeccion ";
+
+            .iText {
+                font-size: 25px;
+            }
+
+            
+    }
+
+    .inicioBody {
+        img {
+            width: 70%;
+        }
+
+        .primeraSeccion {
+            img {
+                width: 90%;
+                height: 400px;
+            }
+        }
+    }
+
+
+
+}
+
+@media (max-width:425px) {
+
+    .inicioBody {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas:
+            "primeraSeccion primeraSeccion primeraSeccion "
+            "segundaSeccion segundaSeccion segundaSeccion"
+            "terceraSeccion terceraSeccion terceraSeccion ";
+
+            .iText {
+                font-size: 20px;
+            }
+
+            
+    }
+
+    .inicioBody {
+        img {
+            width: 90%;
+        }
+
+        .primeraSeccion {
+            img {
+                height: 300px;
+            }
+        }
+    }
+
+
+
+}
+
+@media (max-width:375px) {
+
+    .inicioBody {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas:
+            "primeraSeccion primeraSeccion primeraSeccion "
+            "segundaSeccion segundaSeccion segundaSeccion"
+            "terceraSeccion terceraSeccion terceraSeccion ";
+
+            .iText {
+                font-size: 20px;
+            }
+
+            
+    }
+
+    .inicioBody {
+        img {
+            width: 90%;
+        }
+
+        .primeraSeccion {
+            img {
+                height: 300px;
+            }
+        }
+    }
+
+
+
+}
+
+@media (max-width:320px) {
+
+    .inicioBody {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas:
+            "primeraSeccion primeraSeccion primeraSeccion "
+            "segundaSeccion segundaSeccion segundaSeccion"
+            "terceraSeccion terceraSeccion terceraSeccion ";
+
+        .iText {
+            font-size: 15px;
+        }
+    }
+
+
+
+    .inicioBody {
+        img {
+            width: 90%;
+        }
+
+        .primeraSeccion {
+            img {
+                height: 300px;
+            }
+        }
+    }
+
+
+
 }

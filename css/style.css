@@ -53,6 +53,69 @@
     .inicioBody .terceraSeccion h1 {
       padding-bottom: 15px; }
 
+/* ================= Responsive =============  */
+@media (max-width: 1024px) {
+  .inicioBody {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "primeraSeccion primeraSeccion primeraSeccion " "segundaSeccion segundaSeccion segundaSeccion" "terceraSeccion terceraSeccion terceraSeccion "; }
+    .inicioBody .iText {
+      font-size: 25px; }
+  .inicioBody img {
+    width: 70%; }
+  .inicioBody .primeraSeccion img {
+    width: 90%;
+    height: 500px; } }
+
+@media (max-width: 768px) {
+  .inicioBody {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "primeraSeccion primeraSeccion primeraSeccion " "segundaSeccion segundaSeccion segundaSeccion" "terceraSeccion terceraSeccion terceraSeccion "; }
+    .inicioBody .iText {
+      font-size: 25px; }
+  .inicioBody img {
+    width: 70%; }
+  .inicioBody .primeraSeccion img {
+    width: 90%;
+    height: 400px; } }
+
+@media (max-width: 425px) {
+  .inicioBody {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "primeraSeccion primeraSeccion primeraSeccion " "segundaSeccion segundaSeccion segundaSeccion" "terceraSeccion terceraSeccion terceraSeccion "; }
+    .inicioBody .iText {
+      font-size: 20px; }
+  .inicioBody img {
+    width: 90%; }
+  .inicioBody .primeraSeccion img {
+    height: 300px; } }
+
+@media (max-width: 375px) {
+  .inicioBody {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "primeraSeccion primeraSeccion primeraSeccion " "segundaSeccion segundaSeccion segundaSeccion" "terceraSeccion terceraSeccion terceraSeccion "; }
+    .inicioBody .iText {
+      font-size: 20px; }
+  .inicioBody img {
+    width: 90%; }
+  .inicioBody .primeraSeccion img {
+    height: 300px; } }
+
+@media (max-width: 320px) {
+  .inicioBody {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "primeraSeccion primeraSeccion primeraSeccion " "segundaSeccion segundaSeccion segundaSeccion" "terceraSeccion terceraSeccion terceraSeccion "; }
+    .inicioBody .iText {
+      font-size: 15px; }
+  .inicioBody img {
+    width: 90%; }
+  .inicioBody .primeraSeccion img {
+    height: 300px; } }
+
 /* -=-=-=-=-=-NAV-=--=-=-=-= */
 nav {
   background-image: linear-gradient(to top, #f5abdf, white, #f5abdf);
@@ -76,6 +139,10 @@ nav {
         border: solid .5px #4f006e6b; }
 
 @media (min-width: 425px) {
+  .navbar-nav {
+    align-items: center; } }
+
+@media (min-width: 320px) {
   .navbar-nav {
     align-items: center; } }
 
@@ -139,6 +206,52 @@ nav {
   .ns .imgSeis {
     grid-area: imgSeis; }
 
+/* ================= Responsive =============  */
+/* Laptop L */
+@media (max-width: 1440px) {
+  .fondoServ {
+    margin: 10px; } }
+
+/* Laptop */
+@media (max-width: 1024px) {
+  .ns {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "tituloUno tituloUno tituloUno" "imgUno imgUno imgUno" "tituloDos tituloDos tituloDos" "imgDos imgDos imgDos" "tituloTres tituloTres tituloTres" "imgTres imgTres imgTres" "tituloCuatro tituloCuatro tituloCuatro" "imgCuatro imgCuatro imgCuatro" "tituloCinco tituloCinco tituloCinco" "imgCinco imgCinco imgCinco" "tituloSeis tituloSeis tituloSeis" "imgSeis imgSeis imgSeis"; }
+    .ns div {
+      padding-bottom: 20px; } }
+
+/* MOBILE L */
+@media (max-width: 425px) {
+  .ns {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr; }
+    .ns img {
+      max-width: 410px; }
+    .ns .fondoServ {
+      max-width: 410px;
+      text-align: center; } }
+
+/* MOBILE */
+@media (max-width: 375px) {
+  .ns {
+    text-align: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "tituloUno tituloUno" "imgUno imgUno" "tituloDos tituloDos" "imgDos imgDos" "tituloTres tituloTres" "imgTres imgTres" "tituloCuatro tituloCuatro" "imgCuatro imgCuatro" "tituloCinco tituloCinco" "imgCinco imgCinco" "tituloSeis tituloSeis" "imgSeis imgSeis"; }
+    .ns img {
+      max-width: 320px; }
+    .ns .fondoServ {
+      max-width: 340px; } }
+
+/* MOBILE S*/
+@media (max-width: 320px) {
+  .ns {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "tituloUno tituloUno" "imgUno imgUno" "tituloDos tituloDos" "imgDos imgDos" "tituloTres tituloTres" "imgTres imgTres" "tituloCuatro tituloCuatro" "imgCuatro imgCuatro" "tituloCinco tituloCinco" "imgCinco imgCinco" "tituloSeis tituloSeis" "imgSeis imgSeis"; }
+    .ns .fondoServ {
+      text-align: center;
+      max-width: 290px;
+      font-size: 20px; } }
+
 /* -=-=-=-=-FOOTER-=-=-=-=-=-=- */
 .footer {
   grid-area: footer;
@@ -201,6 +314,13 @@ nav {
 .tall {
   grid-row: span 2; }
 
+/* ================= Responsive =============  */
+/* Laptop L */
+/* Laptop */
+/* Tablets */
+/* MOBILE L */
+/* MOBILE */
+/* MOBILE S*/
 /* ================= DEPI DEFINITIVA ==================== */
 .headerDepi {
   display: flex;
@@ -255,6 +375,13 @@ nav {
           color: white;
           background-color: #550855; }
 
+/* ================= Responsive =============  */
+/* Laptop L */
+/* Laptop */
+/* Tablets */
+/* MOBILE L */
+/* MOBILE */
+/* MOBILE S*/
 /* ================= CONTACTO ==================== */
 .contacto {
   display: grid;
@@ -320,3 +447,11 @@ nav {
     .header .botones input:hover {
       filter: opacity(0.9);
       transform: scale(1.1); }
+
+/* ================= Responsive =============  */
+/* Laptop L */
+/* Laptop */
+/* Tablets */
+/* MOBILE L */
+/* MOBILE */
+/* MOBILE S*/

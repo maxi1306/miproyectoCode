@@ -63,8 +63,8 @@
     .tituloDos {
         grid-area: tituloDos;
         font-size: 20px;
-        
-    
+
+
     }
 
     .tituloTres {
@@ -110,5 +110,131 @@
 
     .imgSeis {
         grid-area: imgSeis;
+    }
+}
+
+/* ================= Responsive =============  */
+
+
+/* Laptop L */
+@media (max-width: 1440px) {
+    .fondoServ {
+        margin: 10px;
+    }
+}
+
+/* Laptop */
+
+@media (max-width: 1024px) {
+
+    .ns {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+
+            "tituloUno tituloUno tituloUno"
+            "imgUno imgUno imgUno"
+            "tituloDos tituloDos tituloDos"
+            "imgDos imgDos imgDos"
+            "tituloTres tituloTres tituloTres"
+            "imgTres imgTres imgTres"
+            "tituloCuatro tituloCuatro tituloCuatro"
+            "imgCuatro imgCuatro imgCuatro"
+            "tituloCinco tituloCinco tituloCinco"
+            "imgCinco imgCinco imgCinco"
+            "tituloSeis tituloSeis tituloSeis"
+            "imgSeis imgSeis imgSeis";
+
+        div {
+            padding-bottom: 20px;
+        }
+    }
+}
+
+
+/* MOBILE L */
+
+@media (max-width:425px) {
+    .ns {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+
+        img {
+            max-width: 410px;
+        }
+
+        .fondoServ {
+            max-width: 410px;
+            text-align: center;
+
+        }
+
+    }
+}
+
+/* MOBILE */
+
+
+@media (max-width:375px) {
+    .ns {
+        text-align: center;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+
+            "tituloUno tituloUno"
+            "imgUno imgUno"
+            "tituloDos tituloDos"
+            "imgDos imgDos"
+            "tituloTres tituloTres"
+            "imgTres imgTres"
+            "tituloCuatro tituloCuatro"
+            "imgCuatro imgCuatro"
+            "tituloCinco tituloCinco"
+            "imgCinco imgCinco"
+            "tituloSeis tituloSeis"
+            "imgSeis imgSeis";
+
+        img {
+            max-width: 320px;
+
+        }
+
+        .fondoServ {
+            max-width: 340px;
+
+
+        }
+    }
+
+
+}
+
+/* MOBILE S*/
+
+@media (max-width:320px) {
+    .ns {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+
+            "tituloUno tituloUno"
+            "imgUno imgUno"
+            "tituloDos tituloDos"
+            "imgDos imgDos"
+            "tituloTres tituloTres"
+            "imgTres imgTres"
+            "tituloCuatro tituloCuatro"
+            "imgCuatro imgCuatro"
+            "tituloCinco tituloCinco"
+            "imgCinco imgCinco"
+            "tituloSeis tituloSeis"
+            "imgSeis imgSeis";
+
+
+
+        .fondoServ {
+            text-align: center;
+            max-width: 290px;
+            font-size: 20px;
+
+        }
     }
 }
