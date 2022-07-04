@@ -2,7 +2,7 @@
 .ns {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:
@@ -27,6 +27,7 @@
         width: 700px;
         padding-bottom: 20px;
         font-family: $tipografiaPrincipal;
+        margin: 20px;
 
         h1 {
             @extend %estilosServi;
@@ -50,6 +51,9 @@
         height: 250px;
         border-radius: 30px;
         border: solid 3px $colorBase;
+        &:hover{
+            transform: scale(1.04);
+        }
     }
 
     .tituloUno {
@@ -123,12 +127,41 @@
     }
 }
 
+@media (max-width: 1240px) {
+
+
+    .ns {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+
+            "tituloUno tituloUno tituloUno"
+            "imgUno imgUno imgUno"
+            "tituloDos tituloDos tituloDos"
+            "imgDos imgDos imgDos"
+            "tituloTres tituloTres tituloTres"
+            "imgTres imgTres imgTres"
+            "tituloCuatro tituloCuatro tituloCuatro"
+            "imgCuatro imgCuatro imgCuatro"
+            "tituloCinco tituloCinco tituloCinco"
+            "imgCinco imgCinco imgCinco"
+            "tituloSeis tituloSeis tituloSeis"
+            "imgSeis imgSeis imgSeis";
+
+        div {
+            padding-bottom: 20px;
+        }
+    }
+}
+
+
 /* Laptop */
 
 @media (max-width: 1024px) {
 
     .ns {
         grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
         grid-template-areas:
 
             "tituloUno tituloUno tituloUno"
@@ -156,7 +189,7 @@
 @media (max-width:425px) {
     .ns {
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: auto;
 
         img {
             max-width: 410px;
@@ -178,6 +211,7 @@
     .ns {
         text-align: center;
         grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
         grid-template-areas:
 
             "tituloUno tituloUno"

@@ -27,6 +27,8 @@
       height: 700px;
       border: solid 3px white;
       border-radius: 15px; }
+      .inicioBody .primeraSeccion img:hover {
+        transform: scale(1.04); }
   .inicioBody .segundaSeccion {
     grid-area: segundaSeccion;
     text-align: center;
@@ -36,6 +38,8 @@
       border: solid 3px white;
       border-radius: 15px;
       margin: 20px; }
+      .inicioBody .segundaSeccion img:hover {
+        transform: scale(1.04); }
   .inicioBody .terceraSeccion {
     grid-area: terceraSeccion;
     padding-bottom: 30px;
@@ -150,7 +154,7 @@ nav {
 .ns {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas: "tituloUno tituloUno tituloUno imgUno imgUno" "imgDos imgDos tituloDos tituloDos tituloDos" "tituloTres tituloTres tituloTres imgTres imgTres" "imgCuatro imgCuatro tituloCuatro tituloCuatro tituloCuatro" "tituloCinco tituloCinco tituloCinco imgCinco imgCinco" "imgSeis imgSeis tituloSeis tituloSeis tituloSeis";
@@ -165,7 +169,8 @@ nav {
     border-radius: 25px;
     width: 700px;
     padding-bottom: 20px;
-    font-family: "Zen Loop", cursive; }
+    font-family: "Zen Loop", cursive;
+    margin: 20px; }
     .ns .fondoServ p {
       text-align: center;
       padding: 20px; }
@@ -174,6 +179,8 @@ nav {
     height: 250px;
     border-radius: 30px;
     border: solid 3px white; }
+    .ns img:hover {
+      transform: scale(1.04); }
   .ns .tituloUno {
     grid-area: tituloUno;
     font-size: 20px;
@@ -212,10 +219,19 @@ nav {
   .fondoServ {
     margin: 10px; } }
 
+@media (max-width: 1240px) {
+  .ns {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "tituloUno tituloUno tituloUno" "imgUno imgUno imgUno" "tituloDos tituloDos tituloDos" "imgDos imgDos imgDos" "tituloTres tituloTres tituloTres" "imgTres imgTres imgTres" "tituloCuatro tituloCuatro tituloCuatro" "imgCuatro imgCuatro imgCuatro" "tituloCinco tituloCinco tituloCinco" "imgCinco imgCinco imgCinco" "tituloSeis tituloSeis tituloSeis" "imgSeis imgSeis imgSeis"; }
+    .ns div {
+      padding-bottom: 20px; } }
+
 /* Laptop */
 @media (max-width: 1024px) {
   .ns {
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
     grid-template-areas: "tituloUno tituloUno tituloUno" "imgUno imgUno imgUno" "tituloDos tituloDos tituloDos" "imgDos imgDos imgDos" "tituloTres tituloTres tituloTres" "imgTres imgTres imgTres" "tituloCuatro tituloCuatro tituloCuatro" "imgCuatro imgCuatro imgCuatro" "tituloCinco tituloCinco tituloCinco" "imgCinco imgCinco imgCinco" "tituloSeis tituloSeis tituloSeis" "imgSeis imgSeis imgSeis"; }
     .ns div {
       padding-bottom: 20px; } }
@@ -224,7 +240,7 @@ nav {
 @media (max-width: 425px) {
   .ns {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr; }
+    grid-template-rows: auto; }
     .ns img {
       max-width: 410px; }
     .ns .fondoServ {
@@ -236,6 +252,7 @@ nav {
   .ns {
     text-align: center;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
     grid-template-areas: "tituloUno tituloUno" "imgUno imgUno" "tituloDos tituloDos" "imgDos imgDos" "tituloTres tituloTres" "imgTres imgTres" "tituloCuatro tituloCuatro" "imgCuatro imgCuatro" "tituloCinco tituloCinco" "imgCinco imgCinco" "tituloSeis tituloSeis" "imgSeis imgSeis"; }
     .ns img {
       max-width: 320px; }

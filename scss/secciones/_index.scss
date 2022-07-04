@@ -22,6 +22,10 @@
             height: 700px;
             border: solid 3px $colorBase;
             border-radius: 15px;
+
+            &:hover {
+                transform: scale(1.04);
+            }
         }
     }
 
@@ -36,6 +40,10 @@
             border: solid 3px $colorBase;
             border-radius: 15px;
             margin: 20px;
+
+            &:hover {
+                transform: scale(1.04);
+            }
         }
 
     }
@@ -77,11 +85,11 @@
             "segundaSeccion segundaSeccion segundaSeccion"
             "terceraSeccion terceraSeccion terceraSeccion ";
 
-            .iText {
-                font-size: 25px;
-            }
+        .iText {
+            font-size: 25px;
+        }
 
-            
+
     }
 
     .inicioBody {
@@ -111,11 +119,11 @@
             "segundaSeccion segundaSeccion segundaSeccion"
             "terceraSeccion terceraSeccion terceraSeccion ";
 
-            .iText {
-                font-size: 25px;
-            }
+        .iText {
+            font-size: 25px;
+        }
 
-            
+
     }
 
     .inicioBody {
@@ -145,11 +153,11 @@
             "segundaSeccion segundaSeccion segundaSeccion"
             "terceraSeccion terceraSeccion terceraSeccion ";
 
-            .iText {
-                font-size: 20px;
-            }
+        .iText {
+            font-size: 20px;
+        }
 
-            
+
     }
 
     .inicioBody {
@@ -178,11 +186,11 @@
             "segundaSeccion segundaSeccion segundaSeccion"
             "terceraSeccion terceraSeccion terceraSeccion ";
 
-            .iText {
-                font-size: 20px;
-            }
+        .iText {
+            font-size: 20px;
+        }
 
-            
+
     }
 
     .inicioBody {
