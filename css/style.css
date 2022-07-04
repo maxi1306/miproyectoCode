@@ -356,6 +356,8 @@ nav {
       background-color: #ffffff3a;
       border-radius: 30px;
       border: solid 4px #ffffff70; }
+      .headerDepi .imgDepi img:hover {
+        transform: scale(1.04); }
   .headerDepi .depiTexto {
     display: flex;
     align-items: center;
