@@ -44,7 +44,7 @@
     grid-area: terceraSeccion;
     padding-bottom: 30px;
     text-align: center;
-    font-size: 30px;
+    font-size: 37px;
     font-family: "Zen Loop", cursive; }
     .inicioBody .terceraSeccion div {
       display: inline-block;
@@ -55,6 +55,7 @@
       border: solid 3px white;
       border-radius: 20px; }
     .inicioBody .terceraSeccion h1 {
+      font-weight: bold;
       padding-bottom: 15px; }
 
 /* ================= Responsive =============  */
