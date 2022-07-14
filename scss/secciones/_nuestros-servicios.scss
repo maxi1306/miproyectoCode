@@ -31,17 +31,20 @@
 
         h1 {
             @extend %estilosServi;
+            font-weight: bold; 
 
         }
 
         h2 {
             @extend %estilosServi;
+            font-weight: bold; 
 
         }
 
         p {
             text-align: center;
             padding: 20px;
+            font-size: 25px;
         }
 
     }

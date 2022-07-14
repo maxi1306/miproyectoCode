@@ -172,9 +172,14 @@ nav {
     padding-bottom: 20px;
     font-family: "Zen Loop", cursive;
     margin: 20px; }
+    .ns .fondoServ h1 {
+      font-weight: bold; }
+    .ns .fondoServ h2 {
+      font-weight: bold; }
     .ns .fondoServ p {
       text-align: center;
-      padding: 20px; }
+      padding: 20px;
+      font-size: 25px; }
   .ns img {
     text-align: center;
     height: 250px;
