@@ -481,11 +481,11 @@ nav {
   .header h1 {
     margin: 1rem; }
   .header input {
-    margin: 5px; }
+    margin: 0.5rem; }
   .header p {
     text-align: center;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin: 5px; }
+    margin: 1rem; }
   .header section {
     background-color: #f9faf95d;
     border-radius: 30px;
@@ -503,7 +503,9 @@ nav {
     background-color: #f0f8ffb2;
     margin: 46px;
     border: solid 5px #f5cbf5;
-    border-radius: 20px; }
+    border-radius: 20px;
+    padding: 20px 77px 77px 77px;
+    font-size: 20px; }
     .header .formulario h1 {
       font-family: "Zen Loop", cursive; }
     .header .formulario p {
@@ -520,11 +522,13 @@ nav {
       text-align: center; }
   .header .botones input {
     border-radius: 15px;
-    height: 1.5rem;
-    width: 100px; }
+    height: 3.2rem;
+    width: 135px;
+    transition: all 1.2s; }
     .header .botones input:hover {
       filter: opacity(0.9);
-      transform: scale(1.1); }
+      transform: scale(1.1);
+      background-color: #f090ef; }
 
 /* ================= Responsive =============  */
 /* MOBILE L */
