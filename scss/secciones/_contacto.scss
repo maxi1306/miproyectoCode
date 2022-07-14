@@ -109,6 +109,10 @@
 @media (max-width:425px) {
     .header {
 
+        .formulario{
+            padding: 30px;
+        }
+
         iframe {
             max-width: 400px;
         }
@@ -121,6 +125,10 @@
 @media (max-width:375px) {
     .header {
 
+        .formulario{
+            padding: 5px;
+        }
+
         iframe {
             max-width: 290px;
         }
@@ -132,9 +140,13 @@
 @media (max-width:320px) {
 
     .header {
-
+        
+        .formulario{
+            padding: 5px;
+        }
         iframe {
-            max-width: 290px;
+            max-width: 270px;
+
         }
     }
 

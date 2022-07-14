@@ -124,7 +124,7 @@
 /* -=-=-=-=-=-NAV-=--=-=-=-= */
 nav {
   background-image: linear-gradient(to top, #f5abdf, white, #f5abdf);
-  box-shadow: 0px 10px 30px #ffaaff; }
+  box-shadow: 0px 3px 20px 2px #ffaaff; }
   nav .navbar-collapse {
     justify-content: flex-end; }
   nav .logo {
@@ -279,7 +279,7 @@ nav {
 .footer {
   grid-area: footer;
   background-image: linear-gradient(to top, #f2b5f1, #f5dff4, #f4b8f3);
-  box-shadow: 0px 0px 30px 20px #ffaaff;
+  box-shadow: 0px 15px 20px 14px #ffaaff;
   text-align: center;
   padding: 20px; }
   .footer i {
@@ -533,15 +533,21 @@ nav {
 /* ================= Responsive =============  */
 /* MOBILE L */
 @media (max-width: 425px) {
+  .header .formulario {
+    padding: 30px; }
   .header iframe {
     max-width: 400px; } }
 
 /* MOBILE */
 @media (max-width: 375px) {
+  .header .formulario {
+    padding: 5px; }
   .header iframe {
     max-width: 290px; } }
 
 /* MOBILE S*/
 @media (max-width: 320px) {
+  .header .formulario {
+    padding: 5px; }
   .header iframe {
-    max-width: 290px; } }
+    max-width: 270px; } }
